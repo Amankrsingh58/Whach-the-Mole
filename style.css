@@ -1,0 +1,59 @@
+ body {
+        background-color: rgb(255, 228, 196);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         user-select: none;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 120px);
+        gap: 10px;
+        background-color: rgb(1, 254, 64);
+        padding: 1.2rem;
+        border: 2px solid rgb(216, 216, 216);
+        border-radius: 10px;
+         user-select: none;
+    }
+
+    .hole {
+        height: 110px;
+        background: #2091F9;
+        border: 5px solid rgb(30, 30, 30);
+        cursor: pointer;
+        border-radius: 50%;
+        outline: none;
+        user-select: none;
+
+    }
+
+    .control,
+    .header {
+        display: flex;
+        justify-content: center;
+        margin: 5px 0;
+        gap: 1rem;
+        user-select: none;
+    }
+
+    .btn {
+        background-color: #2091F9;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        user-select: none;
+    }
+
+    .bg-img {
+        background-image: url('/thief.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    h1{
+        margin: 5px auto 1rem auto;
+    }
