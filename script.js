@@ -34,7 +34,7 @@
                     hole.classList.remove('bg-img');
                     score++;
                     assignThief();
-                }else score--;
+                }else if(startBtn.disabled) {score--;}
                 scoreBoard.innerText = `Score : ${score}`;
             }));
 

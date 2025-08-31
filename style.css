@@ -57,3 +57,38 @@
     h1{
         margin: 5px auto 1rem auto;
     }
+
+    @media (max-width: 600px) {
+       .container {
+        display: grid;
+        grid-template-columns: repeat(3, 90px);
+        gap: 10px;
+        background-color: rgb(1, 254, 64);
+        padding: 1.2rem;
+        border: 2px solid rgb(216, 216, 216);
+        border-radius: 10px;
+         user-select: none;
+          -webkit-user-select: none;
+    }
+
+    .hole {
+        height: 80px;
+        background-color: #2091F9;
+        border: 5px solid rgb(30, 30, 30);
+        cursor: pointer;
+        border-radius: 50%;
+        outline: none;
+        user-select: none;
+    
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+
+
+    }
+    }
+
+    
